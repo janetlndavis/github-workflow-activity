@@ -3,10 +3,10 @@
 
 ## Form teams
 
-Form a 3-person team. If you can't form a team of 3, form a team of 2.
+Work with your Project 3 team. If you are in a team of 4, form two 2-person teams.
 
 Assign the following roles to the members of your team. If you are in a team
-of 2, assign contributor-1 and maintainer to the same person.
+of 2, assign contributor-2 and maintainer to the same person.
 
 Roles:
 
@@ -14,44 +14,37 @@ Roles:
 - Contributor-1: Contributes to the GitHub project created by the maintainer.
 - Contributor-2: Contributes to the GitHub project created by the maintainer.
 
-Switch roles occasionally. Maintainer doesn't have as much to do as the
-contributors. If you do switch roles, physically switch computers. In other
-words, the computers should be associated with the roles. This might mean that
-the owner of the computer may have to enter his/her password for GitHub
-occasionally.
-
-
 ## Overview
 
-In this activity your team will play out several scenarios following steps
-described in _GitHub Workflow Reference_ (the other document you were given).
-
+In this activity your team will play out several scenarios of concurrent development with GitHub.
 
 ## Setup the project
 
-- Help your maintainer to create a new project on GitHub named `favorites`.
-
+- Help your maintainer to create a new project on GitHub named `favorites` and add the other team members as contributors.
 
 ## Contributor-1 setup
 
-- Help Contributor-1 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
-
+- Help Contributor-1 to [clone](https://netbeans.org/kb/docs/ide/git.html#clone) the project in NetBeans.
 
 ## First contribution
 
-- Help contributor-1 to follow _Starting your contribution: (5-13)_ to add a
-  new file `favorite-foods.txt` that contains a couple of contributor-1's
+Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introduction/flow/)
+- [Create a new branch.](https://netbeans.org/kb/docs/ide/git.html#branchCreate)
+- Create a new file `favorite-foods.txt` that contains a couple of contributor-1's
   favorite foods.
-- Help the maintainer to accept contributor-1's pull-request on GitHub.
-- Help contributor-1 to follow _Update your master (27-28)_ and
-  _Delete unneeded branches (29-31)_ to clean up.
+- [Add and commit the new file.](https://netbeans.org/kb/docs/ide/git.html#add)
+- [Push](https://netbeans.org/kb/docs/ide/git.html#push) the new branch to GitHub.
+- On GitHub, [make a pull request](https://help.github.com/articles/creating-a-pull-request/) to pull the new branch into master.
+
+Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then (delete the branch)[https://help.github.com/articles/deleting-unused-branches/)
+
+Help contributor-1 to switch to the master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
 Congratulations, your team has made its first contribution! Celebrate.
 
 
 ## Contributor-2 setup and second contribution
 
-- Help Contributor-2 to follow _Setup: (1-4)_ to prepare his/her local and remote repositories.
 - Repeat the steps above to have contributor-2 contribute a new file
   `favorite-movies.txt` with a couple of his/her favorite movies.
 - Make sure that the maintainer has accepted contributor-2's pull-request and contributor-2 has updated their master and cleaned up.
