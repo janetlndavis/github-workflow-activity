@@ -20,23 +20,25 @@ In this activity your team will play out several scenarios of concurrent develop
 
 ## Setup the project
 
-- Create a new team and repository through GitHub Classroom: https://classroom.github.com/group-assignment-invitations/e592a0be645631543daeb5262a857163
+- Help the maintainer to create a new team and repository through GitHub Classroom. Do not join my TEST team.
+https://classroom.github.com/group-assignment-invitations/e592a0be645631543daeb5262a857163
 
 ## Contributor-1 setup
 
-- Help Contributor-1 to [clone](https://netbeans.org/kb/docs/ide/git.html#clone) the project in NetBeans.
+- Help Contributor-1 to [clone](https://netbeans.org/kb/docs/ide/git.html#clone) the repository in NetBeans. 
 
 ## First contribution
 
 Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introduction/flow/):
-- [Create a new branch.](https://netbeans.org/kb/docs/ide/git.html#branchCreate)
-- Create a new file `favorite-foods.txt` that contains a couple of contributor-1's
-  favorite foods.
-- [Add and commit the new file.](https://netbeans.org/kb/docs/ide/git.html#add)
+- [Create a new development branch.](https://netbeans.org/kb/docs/ide/git.html#branchCreate)
+- Edit 
+- Edit Main.java to make the main method print out a few favorite foods.
 - [Push](https://netbeans.org/kb/docs/ide/git.html#push) the new branch to GitHub.
 - On GitHub, [make a pull request](https://help.github.com/articles/creating-a-pull-request/) to pull the new branch into the master branch.
 
-Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/).
+Good GitHub practice: *Never merge your own pull request.* Another team member should review your code.
+
+Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/).  
 
 Help contributor-1 to switch to their local master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
