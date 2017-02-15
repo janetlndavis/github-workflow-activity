@@ -104,7 +104,7 @@ This is another moment for an enthusiastic celebration. Well done!
 
 ## Your sandbox
 
-Troubles with Git?  This repository is your sandbox for trying new things.  Let me know if you have a scenario you want help figuring out.
+Troubles with Git?  The repository you created today is your safe place for trying new things.  Let me know if you have a scenario you want help figuring out.
 
 ## Copyright and Licensing
 
