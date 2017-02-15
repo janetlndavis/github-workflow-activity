@@ -71,7 +71,8 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
 - Help contributor-2 switch to their local master branch,
   pull changes from GitHub, switch to their development branch, and rebase it relative to the master branch. 
   In the rebase dialog, you want the Rebased Branch to be the development branch and the Destination branch to be the master branch.
-  Once the development branch is rebased, push it to GitHub.
+  You will need to merge conflicting changes and then continue the rebase.
+  Once the development branch is rebased, commit the changes and push to GitHub.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
 - Have contributors clean up their extra branches.
