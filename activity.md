@@ -31,7 +31,6 @@ https://classroom.github.com/group-assignment-invitations/e592a0be645631543daeb5
 
 Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introduction/flow/):
 - [Create a new development branch.](https://netbeans.org/kb/docs/ide/git.html#branchCreate)
-- Edit 
 - Edit Main.java to make the main method print out a few favorite foods.
 - [Commit](https://netbeans.org/kb/docs/ide/git.html#committing) the changes.
 - [Push](https://netbeans.org/kb/docs/ide/git.html#push) the new branch to GitHub.
