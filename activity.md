@@ -28,7 +28,7 @@ In this activity your team will play out several scenarios of concurrent develop
 
 ## First contribution
 
-Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introduction/flow/)
+Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introduction/flow/):
 - [Create a new branch.](https://netbeans.org/kb/docs/ide/git.html#branchCreate)
 - Create a new file `favorite-foods.txt` that contains a couple of contributor-1's
   favorite foods.
@@ -36,7 +36,7 @@ Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introdu
 - [Push](https://netbeans.org/kb/docs/ide/git.html#push) the new branch to GitHub.
 - On GitHub, [make a pull request](https://help.github.com/articles/creating-a-pull-request/) to pull the new branch into master.
 
-Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then (delete the branch)[https://help.github.com/articles/deleting-unused-branches/)
+Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/).
 
 Help contributor-1 to switch to the master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
@@ -51,11 +51,9 @@ Congratulations, your team has made its first contribution! Celebrate.
 
 Celebrate again.
 
-
 ## First synchronization
 
-- Contributor-1's repositories are out of synch. Help contributor-1 follow
-  _Keep your repositories up-to-date (18-23)_ to update his/her repositories.
+- Contributor-1's clone is out of synch. Help contributor-1 pull changes from the remote master into their local master branch.
 
 Celebrate. But keep it small. Don't worry, there will be bigger celebrations later.
 
@@ -64,14 +62,14 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
 
 - Have contributor-1 and contributor-2 independently follow the contribution
   workflow to add another favorite food to the end of `favorite-foods.txt`.
-- Maintainer, accept one of the pull-requests. Try to accept the other. You
-  won't be able to because changes in the pull-request conflict with the other
+- Maintainer, accept one of the pull requests. Try to accept the other. You
+  won't be able to because changes in the pull request conflict with the other
   that you already accepted.
-- Help the contributor with the unresolved pull-request to follow
-  _Keep your repositories up-to-date (18-23)_ to synchronize his/her
-  repositories and resolve the conflicts.
-- Maintainer, note that the conflicted pull-request is automatically updated and
-  should be acceptable. Accept the pull-request.
+- Help the contributor with the unresolved pull request to pull changes from GitHub 
+  to the local master and rebase their development branch. Then push 
+  the development branch to GitHub.
+- Maintainer, note that the conflicted pull request is automatically updated and
+  should be acceptable. Accept the pull request.
 - Have contributors clean up.
 
 Celebrate enthusiastically. That was challenging.
@@ -97,17 +95,20 @@ automatically as new changes are pushed to the same branch.
   commits.
 - Maintainer, through the pull-request, ask contributors to squash their work
   into a single commit.
-- Help contributors to follow _Squash your commits (24-25)_ to squash their
-  commits into a single commit and push it.
+- Help contributors to [squash their commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) into a single   commit and push it.
 - Maintainer, accept the pull-requests once it contains the same work, but only
   a single commit.
 - Contributors, don't forget to clean up.
 
 This is another moment for an enthusiastic celebration. Well done!  
 
+## Your sandbox
+
+Troubles with Git?  This repository is your sandbox for trying new things.  Let me know if you have a scenario you want help figuring out.
 
 ## Copyright and Licensing
 
 Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
+Copyright 2017 Janet Davis
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .
