@@ -20,7 +20,7 @@ In this activity your team will play out several scenarios of concurrent develop
 
 ## Setup the project
 
-- Create a new repository through GitHub Classroom: https://classroom.github.com/group-assignment-invitations/e592a0be645631543daeb5262a857163
+- Create a new team and repository through GitHub Classroom: https://classroom.github.com/group-assignment-invitations/e592a0be645631543daeb5262a857163
 
 ## Contributor-1 setup
 
