@@ -6,7 +6,7 @@
 Work with your Project 3 team. If you are in a team of 4, form two 2-person teams.
 
 Assign the following roles to the members of your team. If you are in a team
-of 2, assign contributor-2 and maintainer to the same person.
+of 2, then both team members will take turns playing the role of the maintainer.
 
 Roles:
 
@@ -34,11 +34,11 @@ Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introdu
   favorite foods.
 - [Add and commit the new file.](https://netbeans.org/kb/docs/ide/git.html#add)
 - [Push](https://netbeans.org/kb/docs/ide/git.html#push) the new branch to GitHub.
-- On GitHub, [make a pull request](https://help.github.com/articles/creating-a-pull-request/) to pull the new branch into master.
+- On GitHub, [make a pull request](https://help.github.com/articles/creating-a-pull-request/) to pull the new branch into the master branch.
 
 Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/).
 
-Help contributor-1 to switch to the master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
+Help contributor-1 to switch to the master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
 Congratulations, your team has made its first contribution! Celebrate.
 
@@ -47,7 +47,8 @@ Congratulations, your team has made its first contribution! Celebrate.
 
 - Repeat the steps above to have contributor-2 contribute a new file
   `favorite-movies.txt` with a couple of his/her favorite movies.
-- Make sure that the maintainer has accepted contributor-2's pull-request and contributor-2 has updated their master and cleaned up.
+- Make sure that the maintainer has accepted contributor-2's pull request 
+  and contributor-2 has updated their master and cleaned up.
 
 Celebrate again.
 
@@ -95,7 +96,7 @@ automatically as new changes are pushed to the same branch.
   commits.
 - Maintainer, through the pull-request, ask contributors to squash their work
   into a single commit.
-- Help contributors to [squash their commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) into a single   commit and push it.
+- Help contributors to [squash their commits](http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html) into a single   commit and push it. (Note you will have to use the command line.  NetBeans does not yet provide support for squashing commits.)
 - Maintainer, accept the pull-requests once it contains the same work, but only
   a single commit.
 - Contributors, don't forget to clean up.
