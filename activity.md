@@ -68,7 +68,8 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
   that you already accepted.
 - Help the contributor with the unresolved pull request to switch to their local master branch,
   pull changes from GitHub, switch to their development branch, and rebase it relative to the master branch. 
-  Then push the development branch to GitHub.
+  In the rebase dialog, you want the Rebased Branch to be the development branch and the Destination branch to be the master branch.
+  Once the development branch is rebased, push it to GitHub.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
 - Have contributors clean up.
