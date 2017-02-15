@@ -38,7 +38,7 @@ Help contributor-1 to follow the [GitHub flow](https://guides.github.com/introdu
 
 Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/).
 
-Help contributor-1 to switch to the master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
+Help contributor-1 to switch to their local master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
 Congratulations, your team has made its first contribution! Celebrate.
 
@@ -66,9 +66,9 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
 - Maintainer, accept one of the pull requests. Try to accept the other. You
   won't be able to because changes in the pull request conflict with the other
   that you already accepted.
-- Help the contributor with the unresolved pull request to pull changes from GitHub 
-  to the local master and rebase their development branch. Then push 
-  the development branch to GitHub.
+- Help the contributor with the unresolved pull request to switch to their local master branch,
+  pull changes from GitHub, switch to their development branch, and rebase it relative to the master branch. 
+  Then push the development branch to GitHub.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
 - Have contributors clean up.
