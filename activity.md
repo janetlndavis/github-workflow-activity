@@ -70,7 +70,7 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
   that you already accepted.
 - Help contributor-2 switch to rebase their development branch relative to the updated master branch. Close Netbeans and open a terminal.
 ```bash
-$ cd NetBeans/workflow-activity-<teamname>
+$ cd NetBeansProjects/workflow-activity-<teamname> # Your teamname in place of <teamname>, or hit tab
 $ git fetch origin master:master 
 $ git rebase master                                   
 $ vi  Favorites/src/favorites/Main.java
