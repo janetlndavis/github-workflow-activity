@@ -68,9 +68,18 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
 - Have the maintainer accept maintainer-1's pull request. Try to accept contributor-2's pull request. You
   won't be able to because changes in the pull request conflict with the other
   that you already accepted.
-- Help contributor-2 switch to rebase their development branch relative to the updated master branch. 
+- Help contributor-2 switch to rebase their development branch relative to the updated master branch. Close Netbeans and open a terminal.
+*Work in progress*
+```bash
+$ git fetch upstream master:master                     (18)
+$ git rebase master                                    (19)
+$ vim file1                                           (*20)
+$ git add .                                            (21)
+$ git rebase --continue                                (22)
+$ git push -f origin master <BRANCH_NAME>              (23)
+```
   *I have been having a difficult time figuring out how to do this in NetBeans.  Call me over when you get here.*
-  Once the development branch is rebased, push to GitHub.
+- Once the development branch is rebased, push to GitHub.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
 - Have contributors clean up their extra branches.
