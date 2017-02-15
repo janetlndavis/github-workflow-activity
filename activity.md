@@ -69,17 +69,17 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
   won't be able to because changes in the pull request conflict with the other
   that you already accepted.
 - Help contributor-2 switch to rebase their development branch relative to the updated master branch. Close Netbeans and open a terminal.
-*Work in progress*
 ```bash
-$ git fetch upstream master:master                     (18)
-$ git rebase master                                    (19)
-$ vim file1                                           (*20)
-$ git add .                                            (21)
-$ git rebase --continue                                (22)
-$ git push -f origin master <BRANCH_NAME>              (23)
+$ cd NetBeans/workflow-activity-<teamname>
+$ git fetch origin master:master 
+$ git rebase master                                   
+$ vi  Favorites/src/favorites/Main.java
+  # or use whatever text editor you prefer to resolve the conflict - call me if you need help
+$ git add .                                            
+$ git rebase --continue                                
+$ git push -f origin master <BRANCH_NAME>              
 ```
-  *I have been having a difficult time figuring out how to do this in NetBeans.  Call me over when you get here.*
-- Once the development branch is rebased, push to GitHub.
+- Contributor-2, check the status of your development branch on GitHub.  You should see the merged changes. Now you can open NetBeans again.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
 - Have contributors clean up their extra branches.
