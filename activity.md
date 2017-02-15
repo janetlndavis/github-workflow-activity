@@ -54,7 +54,7 @@ Celebrate again.
 
 ## First synchronization
 
-- Contributor-1's clone is out of synch. Help contributor-1 pull changes from the remote master into their local master branch.
+- Contributor-1's clone is out of synch. Help contributor-1 pull changes from GitHub into their local master branch.
 
 Celebrate. But keep it small. Don't worry, there will be bigger celebrations later.
 
@@ -67,7 +67,7 @@ Celebrate. But keep it small. Don't worry, there will be bigger celebrations lat
   won't be able to because changes in the pull request conflict with the other
   that you already accepted.
 - Help the contributor with the unresolved pull request to pull changes from GitHub 
-  to the local master and rebase their development branch. Then push 
+  to their local master branch and rebase their development branch. Then push 
   the development branch to GitHub.
 - Maintainer, note that the conflicted pull request is automatically updated and
   should be acceptable. Accept the pull request.
