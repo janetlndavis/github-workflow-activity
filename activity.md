@@ -108,7 +108,6 @@ Troubles with Git?  This repository is your sandbox for trying new things.  Let 
 
 ## Copyright and Licensing
 
-Copyright 2016 Darci Burdge and Stoney Jackson SOME RIGHTS RESERVED
-Copyright 2017 Janet Davis
+Copyright 2016 Darci Burdge and Stoney Jackson; 2017 Janet Davis SOME RIGHTS RESERVED
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ .
