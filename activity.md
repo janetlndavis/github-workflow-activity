@@ -40,7 +40,9 @@ Good GitHub practice: *Never merge your own pull request.* Another team member s
 
 Help the maintainer to [merge contributor-1's pull request](https://help.github.com/articles/merging-a-pull-request/) on GitHub and then [delete the branch](https://help.github.com/articles/deleting-unused-branches/) on GitHub.  
 
-Help contributor-1 to switch to their local master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
+Help contributor-1 to switch to their local master branch and [pull changes](https://netbeans.org/kb/docs/ide/git.html#pull) from the remote master. Use the **Team > Remote > Pull...** dialog, click **Enable Deletes**, and allow it to delete the local clone of the remote development branch.
+
+Then, clean up by [deleting the local development branch](https://netbeans.org/kb/docs/ide/git.html#branchDelete).
 
 Congratulations, your team has made its first contribution! Celebrate.
 
